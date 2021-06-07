@@ -1,4 +1,3 @@
-{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 
@@ -12,9 +11,10 @@
         href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css"
         integrity="undefined" crossorigin="anonymous">
     <title>Document</title>
-    <link rel="stylesheet" href="{% static 'mysite/static/style.css' %}">
 </head>
+
 <body>
+
     <div class="container mt-2" style="width: 60%;">
         <form class="needs-validation p-3" action="" method="POST" style="border: 2px solid blue;border-radius: 10px;">
             {% csrf_token %}
